@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1691430346~exp=1691430946~hmac=9e969b6cb0074de466066d57d5a7352084a50ba03cf9e27f829c9e19f360a95e")
+    no-repeat center/ cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.header{
+    font-size: 20px;
+    border: 3px solid rgb(239, 239, 239);
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.container{
+    width: 80%;
+}
+.main-content{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.592);
+    border-radius: 5px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area{
+    font-size: 30px;
+    line-height: 35px;
+}
+.main-content .person{
+    font-size: 36px;
+    color: brown;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-area button:active{
+    background-color: rgba(240, 248, 255, 0.679);
+    color: black;
+}
+
